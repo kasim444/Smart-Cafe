@@ -33,4 +33,3 @@ Sıra beklemeden yemek siparişi.
 
 
 
-
