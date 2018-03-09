@@ -1,4 +1,4 @@
-Literature Scan
+
 0-Smart Cafe : smartcafe.com
 Sipariş vermek ve hesap ödemek, restoranlarda bizi en çok bekleten işlemler. Garsonla göz göze gelmek için verilen uğraştan ödemeye kadar geçen sürede kaybolan zamana son vermek isteyen Mobven ve Protel yeni bir girişim için bir araya geldi; Proven.
 
@@ -17,12 +17,12 @@ Artılar :
 Eksileri :
 
 
-2-Dijital sipariş çözümleri : http://www.menulux.com/ => 
+2-Dijital sipariş çözümleri : http://www.menulux.com/ =>
 Restoran, kafe, kahve dükkanları ve oteller için yeni nesil dijital menü ve mobil sipariş çözümlerimizi keşfedin.
 
 
 
-3-Cafe Restoran Mobil Uygulama : http://neccina.com/tr/mobile-menu-app  => 
+3-Cafe Restoran Mobil Uygulama : http://neccina.com/tr/mobile-menu-app  =>
 Cafe/Restoranlar için iPhone Android mobil menü uygulaması
 
 4-Adisyo : https://www.adisyo.com/index.html =>
@@ -30,7 +30,3 @@ Adisyo, cafe/restaurant operasyonlarınızı online olarak, herhangi bir cihaz �
 
 5-Joker Menu : https://joker.menu/kampanyalar.html =>
 Sıra beklemeden yemek siparişi.
-
-
-
-
