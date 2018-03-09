@@ -30,3 +30,5 @@ Adisyo, cafe/restaurant operasyonlarınızı online olarak, herhangi bir cihaz �
 
 5-Joker Menu : https://joker.menu/kampanyalar.html =>
 Sıra beklemeden yemek siparişi.
+
+ada
