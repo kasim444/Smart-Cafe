@@ -1,17 +1,17 @@
                                         
                                                     AKILLI SİPARİŞ SİSTEMİ 
 
-Hedef
+  Hedef
 
       •Otel, cafe ve restoran siparişlerini hızlı hale getirmek.
     
-Hedef Kirle
+  Hedef Kirle
       
       •Satış kitlemiz otel, cafe ve restoran gibi işletmeler.
   
       •Hizmet kitlemiz satış kitlemiz ile beraber satış kitlemizin müşterileri.
     
-Akıllı Sipariş Site Uygulamasının İşlevi
+  Akıllı Sipariş Site Uygulamasının İşlevi
 
       •Otel, Cafe ve Restoranların yeni ürün eklemelerine var olan ürünleri güncellemeleri ve silmeleri.
   
@@ -19,7 +19,7 @@ Akıllı Sipariş Site Uygulamasının İşlevi
   
       •Sipariş veren müşterilerin verdikleri sipariş tutarlarını görebilmeleri.
 
-Sitenin Ana Sayfası
+  Sitenin Ana Sayfası
 
       •Anlaşmalı işletme sahiplerinin login girişi yaparak kendilerine ait olan işletme arayüzüne bağlanmaları.
   
@@ -37,7 +37,7 @@ Anlaşmalı İşletme Arayüzü
   
       •Ekli olan ürünlerin liste ekranı bulunur.
   
-İşletmeye Gelen Müşteri Arayüzü
+  İşletmeye Gelen Müşteri Arayüzü
 
       •O işletmeye ait ürünlerin o işletmenin müşterilerin  listelendiği ekran.
   
@@ -47,7 +47,7 @@ Anlaşmalı İşletme Arayüzü
   
       •Sepetim ekranındaki siparişi onayla butonu ile siparişin verilmesi.
   
-Sitenin Admin Arayüzü
+  Sitenin Admin Arayüzü
 
       •Sadece sitenin kurucularına ait bir arayüzdür.
   
@@ -59,7 +59,7 @@ Sitenin Admin Arayüzü
   
       •İşletme silme ekranı bulunur.
   
-Sitenin Kullanılabilir Durumları
+  Sitenin Kullanılabilir Durumları
 
       •Sipariş verebilmek için o işletmede bulunulmalı.
   
