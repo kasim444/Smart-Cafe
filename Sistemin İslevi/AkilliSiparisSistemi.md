@@ -1,3 +1,5 @@
+                                        
+                                              AKILLI SİPARİŞ SİSTEMİ 
 
 Hedef
   •	Otel, cafe ve restoran siparişlerini hızlı hale getirmek.
