@@ -3,7 +3,7 @@
 
 Hedef
 
-     •	Otel, cafe ve restoran siparişlerini hızlı hale getirmek.
+      •	Otel, cafe ve restoran siparişlerini hızlı hale getirmek.
     
 Hedef Kirle
 
@@ -21,50 +21,50 @@ Akıllı Sipariş Site Uygulamasının İşlevi
 
 Sitenin Ana Sayfası
 
-    •	Anlaşmalı işletme sahiplerinin login girişi yaparak kendilerine ait olan işletme arayüzüne bağlanmaları.
+      •	Anlaşmalı işletme sahiplerinin login girişi yaparak kendilerine ait olan işletme arayüzüne bağlanmaları.
   
-    •	İşletmeye gelen müşterilerin QR kod okutarak o işletmenin ürünler arayüzüne bağlanmaları.
+      •	İşletmeye gelen müşterilerin QR kod okutarak o işletmenin ürünler arayüzüne bağlanmaları.
 
 Anlaşmalı İşletme Arayüzü
 
-    •	Yeni ürün ekleme ekranı bulunur.
+      •	Yeni ürün ekleme ekranı bulunur.
   
-    •	Ürün güncelleştirme ekranı bulunur.
+      •	Ürün güncelleştirme ekranı bulunur.
   
-    •	Ürün silme ekranı bulunur.
+      •	Ürün silme ekranı bulunur.
   
-    •	Gelen siparişleri görüntüleme ekranı bulunur.
+      •	Gelen siparişleri görüntüleme ekranı bulunur.
   
-    •	Ekli olan ürünlerin liste ekranı bulunur.
+      •	Ekli olan ürünlerin liste ekranı bulunur.
   
 İşletmeye Gelen Müşteri Arayüzü
 
-    •	O işletmeye ait ürünlerin o işletmenin müşterilerin  listelendiği ekran.
+      •	O işletmeye ait ürünlerin o işletmenin müşterilerin  listelendiği ekran.
   
-    •	İşletme müşterisi tarafından seçilen ürünlerin sepetim ekranına eklenmesi.
+      •	İşletme müşterisi tarafından seçilen ürünlerin sepetim ekranına eklenmesi.
   
-    • Sepetim ekranına eklenen ürünlerin toplam tutarlarının (sipariş tutarı) gösterilmesi.
+      • Sepetim ekranına eklenen ürünlerin toplam tutarlarının (sipariş tutarı) gösterilmesi.
   
-    •	Sepetim ekranındaki siparişi onayla butonu ile siparişin verilmesi.
+      •	Sepetim ekranındaki siparişi onayla butonu ile siparişin verilmesi.
   
 Sitenin Admin Arayüzü
 
-    •	Sadece sitenin kurucularına ait bir arayüzdür.
+      •	Sadece sitenin kurucularına ait bir arayüzdür.
   
-    •	Sitenin anlaşmalı işletmelerinin kayıtlı olduğu listeleme ekranı bulunur.
+      •	Sitenin anlaşmalı işletmelerinin kayıtlı olduğu listeleme ekranı bulunur.
   
-    •	Yeni işletme ekleme ekranı bulunur.
+      •	Yeni işletme ekleme ekranı bulunur.
   
-    •	İşletme güncelleştirme ekranı bulunur.
+      •	İşletme güncelleştirme ekranı bulunur.
   
-    •	İşletme silme ekranı bulunur.
+      •	İşletme silme ekranı bulunur.
   
 Sitenin Kullanılabilir Durumları
 
-    •	Sipariş verebilmek için o işletmede bulunulmalı.
+      •	Sipariş verebilmek için o işletmede bulunulmalı.
   
-    •	Evlere sipariş verilmemektedir. Sadece işletme içerisinde kullanılabilen bir sipariş sistemidir.
+      •	Evlere sipariş verilmemektedir. Sadece işletme içerisinde kullanılabilen bir sipariş sistemidir.
   
-    •	Bu sitenin, o işletme ile anlaşmalı olması gerekmektedir.
+      •	Bu sitenin, o işletme ile anlaşmalı olması gerekmektedir.
   
   
