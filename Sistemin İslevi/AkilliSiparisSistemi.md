@@ -6,7 +6,6 @@ Hedef
       •Otel, cafe ve restoran siparişlerini hızlı hale getirmek.
     
 Hedef Kirle
-
       •Satış kitlemiz otel, cafe ve restoran gibi işletmeler.
   
       •Hizmet kitlemiz satış kitlemiz ile beraber satış kitlemizin müşterileri.
