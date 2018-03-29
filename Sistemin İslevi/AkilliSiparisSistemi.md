@@ -1,37 +1,42 @@
-AKILLI SİPARİŞ SİSTEMİ 
+
 Hedef
-•	Otel, cafe ve restoran siparişlerini hızlı hale getirmek.
+  â€¢	Otel, cafe ve restoran sipariÅŸlerini hÄ±zlÄ± hale getirmek.
+    
 Hedef Kirle
-•	Satış kitlemiz otel, cafe ve restoran gibi işletmeler.
-•	Hizmet kitlemiz satış kitlemiz ile beraber satış kitlemizin müşterileri.
-Akıllı Sipariş Site Uygulamasının İşlevi
-•	Otel, Cafe ve Restoranların yeni ürün eklemelerine var olan ürünleri güncellemeleri ve silmeleri.
-•	Otel, cafe ve restoranlara giden müşterilerin QR kod okutarako işletmeye ait ürünleri sipariş vermeleri.
-•	Sipariş veren müşterilerin verdikleri sipariş tutarlarını görebilmeleri.
-Sitenin Ana Sayfası
-•	Anlaşmalı işletme sahiplerinin login girişi yaparak kendilerine ait olan işletme arayüzüne bağlanmaları.
-•	İşletmeye gelen müşterilerin QR kod okutarak o işletmenin ürünler arayüzüne bağlanmaları.
-Anlaşmalı İşletme Arayüzü
-•	Yeni ürün ekleme ekranı,
-•	Ürün güncelleştirme ekranı,
-•	Ürün silme ekranı,
-•	Gelen siparişleri görüntüleme ekranı,
-•	Ekli olan ürünlerin liste ekranı bulunur.
-İşletmeye Gelen Müşteri Arayüzü
-•	O işletmeye ait ürünlerin o işletmenin müşterilerin  listelendiği ekran.
-•	İşletme müşterisi tarafından seçilen ürünlerin sepetim ekranına eklenmesi.
-•	Sepetim ekranına eklenen ürünlerin toplam tutarlarının (sipariş tutarı) gösterilmesi.
-•	Sepetim ekranındaki siparişi onayla butonu ile siparişin verilmesi.
+  â€¢	SatÄ±ÅŸ kitlemiz otel, cafe ve restoran gibi iÅŸletmeler.
+  â€¢	Hizmet kitlemiz satÄ±ÅŸ kitlemiz ile beraber satÄ±ÅŸ kitlemizin mÃ¼ÅŸterileri.
+    
+AkÄ±llÄ± SipariÅŸ Site UygulamasÄ±nÄ±n Ä°ÅŸlevi
+  â€¢	Otel, Cafe ve RestoranlarÄ±n yeni Ã¼rÃ¼n eklemelerine var olan Ã¼rÃ¼nleri gÃ¼ncellemeleri ve silmeleri.
+  â€¢	Otel, cafe ve restoranlara giden mÃ¼ÅŸterilerin QR kod okutarako iÅŸletmeye ait Ã¼rÃ¼nleri sipariÅŸ vermeleri.
+  â€¢	SipariÅŸ veren mÃ¼ÅŸterilerin verdikleri sipariÅŸ tutarlarÄ±nÄ± gÃ¶rebilmeleri.
 
+Sitenin Ana SayfasÄ±
+  â€¢	AnlaÅŸmalÄ± iÅŸletme sahiplerinin login giriÅŸi yaparak kendilerine ait olan iÅŸletme arayÃ¼zÃ¼ne baÄŸlanmalarÄ±.
+  â€¢	Ä°ÅŸletmeye gelen mÃ¼ÅŸterilerin QR kod okutarak o iÅŸletmenin Ã¼rÃ¼nler arayÃ¼zÃ¼ne baÄŸlanmalarÄ±.
 
-
-Sitenin Admin Arayüzü
-•	Sadece sitenin kurucularına ait bir arayüzdür.
-•	Sitenin anlaşmalı işletmelerinin kayıtlı olduğu listeleme ekranı bulunur.
-•	Yeni işletme ekleme ekranı ,
-•	İşletme güncelleştirme ekranı,
-•	İşletme silme ekranı bulunur.
-Sitenin Kullanılabilir Durumları
-•	Sipariş verebilmek için o işletmede bulunulmalı.
-•	Evlere sipariş verilmemektedir. Sadece işletme içerisinde kullanılabilen bir sipariş sistemidir.
-•	Bu sitenin, o işletme ile anlaşmalı olması gerekmektedir.
+AnlaÅŸmalÄ± Ä°ÅŸletme ArayÃ¼zÃ¼
+  â€¢	Yeni Ã¼rÃ¼n ekleme ekranÄ±,
+  â€¢	ÃœrÃ¼n gÃ¼ncelleÅŸtirme ekranÄ±,
+  â€¢	ÃœrÃ¼n silme ekranÄ±,
+  â€¢	Gelen sipariÅŸleri gÃ¶rÃ¼ntÃ¼leme ekranÄ±,
+  â€¢	Ekli olan Ã¼rÃ¼nlerin liste ekranÄ± bulunur.
+  
+Ä°ÅŸletmeye Gelen MÃ¼ÅŸteri ArayÃ¼zÃ¼
+  â€¢	O iÅŸletmeye ait Ã¼rÃ¼nlerin o iÅŸletmenin mÃ¼ÅŸterilerin  listelendiÄŸi ekran.
+  â€¢	Ä°ÅŸletme mÃ¼ÅŸterisi tarafÄ±ndan seÃ§ilen Ã¼rÃ¼nlerin sepetim ekranÄ±na eklenmesi.
+  â€¢	Sepetim ekranÄ±na eklenen Ã¼rÃ¼nlerin toplam tutarlarÄ±nÄ±n (sipariÅŸ tutarÄ±) gÃ¶sterilmesi.
+  â€¢	Sepetim ekranÄ±ndaki sipariÅŸi onayla butonu ile sipariÅŸin verilmesi.
+  
+Sitenin Admin ArayÃ¼zÃ¼
+  â€¢	Sadece sitenin kurucularÄ±na ait bir arayÃ¼zdÃ¼r.
+  â€¢	Sitenin anlaÅŸmalÄ± iÅŸletmelerinin kayÄ±tlÄ± olduÄŸu listeleme ekranÄ± bulunur.
+  â€¢	Yeni iÅŸletme ekleme ekranÄ± ,
+  â€¢	Ä°ÅŸletme gÃ¼ncelleÅŸtirme ekranÄ±,
+  â€¢	Ä°ÅŸletme silme ekranÄ± bulunur.
+  
+Sitenin KullanÄ±labilir DurumlarÄ±
+  â€¢	SipariÅŸ verebilmek iÃ§in o iÅŸletmede bulunulmalÄ±.
+  â€¢	Evlere sipariÅŸ verilmemektedir. Sadece iÅŸletme iÃ§erisinde kullanÄ±labilen bir sipariÅŸ sistemidir.
+  â€¢	Bu sitenin, o iÅŸletme ile anlaÅŸmalÄ± olmasÄ± gerekmektedir.
+  
