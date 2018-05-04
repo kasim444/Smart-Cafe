@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
+    <!-- Meta Taglar burada -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Smart Cafe | Tıkla gelsin</title>
+
+    <!-- Tittle Taglar burada -->
+    <title>Smart Cafe</title>
+
+    <!-- Custom css dosyamızın yolu -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Qr Code İnclude File -->
+    <script type="text/javascript" src="llqrcode.js"></script>
+    <script type="text/javascript" src="webqr.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+
 </head>
+
 <body>
-    HELLO WORLD!!!!
+
+    <div id="main">
+        <div id="header">
+            <div style="position:relative;top:+20px;left:0px;">
+                <g:plusone size="medium"></g:plusone>
+            </div>
+
+            <h1 class="title custom-font">Smart Cafe</h1>
+            <h2 class="slogan">Siparişini online ver ayağına gelsin</h2>
+            <img src="img/img.png" alt="" width="100px">
+            <!--
+            <ul>
+                <li>
+                    <a href="#">Restoran Yönetim Paneli</a>
+                </li>
+                
+                <li><a href="create.html">Create</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            <li style="border: medium none;">
+                <a href="#">İletişim</a>
+            </li>
+            </ul>
+            -->
+        </div>
+        <div id="mainbody">
+            <table class="tsel" border="0" width="100%">
+                <tr>
+                    <td valign="top" align="center" width="50%">
+                        <table class="tsel" border="0">
+                            <tr>
+                                <td>
+                                    <img hidden class="selector" id="webcamimg" src="https://webqr.com/vid.png" onclick="setwebcam()" align="left" />
+                                </td>
+                                <td>
+                                    <img hidden class="selector" id="qrimg" src="https://webqr.com/cam.png" onclick="setimg()" align="right" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <div id="outdiv">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <div id="result"></div>
+                        <button hidden onclick="test()">Yönlen</button>
+                    </td>
+                </tr>
+            </table>
+        </div>&nbsp;
+        <div id="footer">\
+        </div>
+    </div>
+    <canvas id="qr-canvas" width="800" height="600"></canvas>
+    <script type="text/javascript">
+        load();
+    </script>
+
+
 </body>
+
 </html>

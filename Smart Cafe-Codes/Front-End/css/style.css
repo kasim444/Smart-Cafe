@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700');
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), url("http://indianchopstix.com/wp-content/uploads/2014/05/home.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    border: 0;
+}
+
+#main {
+    /* background: white; */
+    overflow: auto;
+    width: 35%;
+    margin: 22px auto;
+}
+
+#header {
+    /* background: white; */
+}
+
+#mainbody {
+    /* background: white; */
+    width: 50%;
+    display: none;
+}
+
+#footer {
+    /* background: white; */
+}
+
+#v {
+    width: 320px;
+    height: 240px;
+}
+
+#qr-canvas {
+    display: none;
+}
+
+#qrfile {
+    width: 320px;
+    height: 240px;
+}
+
+#title {
+    font-family: monospace;
+    text-align: center;
+}
+
+#imghelp {
+    position: relative;
+    left: 0px;
+    top: -160px;
+    z-index: 100;
+    font: 18px arial, sans-serif;
+    /* background: #f0f0f0; */
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.selector {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-bottom: -5px;
+}
+
+#outdiv {
+    width: 320px;
+    height: 240px;
+}
+
+#result {
+    color: #c9ad91;
+    padding: 20px;
+    width: 50%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+ul {
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+
+li {
+    display: inline;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    font-weight: bold;
+    border-right: 1px solid rgb(7, 250, 230);
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(7, 250, 230);
+}
+
+#footer a {
+    color: rgb(7, 250, 230);
+}
+
+.tsel {
+    padding: 0;
+}
+
+.custom-font {
+    font-family: "Alex Brush", cursive;
+    color: #be8040;
+    font-size: 75px;
+    line-height: 0;
+}
+
+.slogan {
+    color: #c9ad91;
+    font-style: italic;
+    font-size: medium;
+}
