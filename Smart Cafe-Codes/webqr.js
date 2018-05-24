@@ -94,11 +94,17 @@ function htmlEntities(str) {
 }
 
 function read(a) {
-    var html = "<br>";
-    if (a.indexOf("http://") === 0 || a.indexOf("https://") === 0)
-        html += "<a target='_blank' href='" + a + "'>" + a + "</a><br>";
-    html += "<b>" + htmlEntities(a) + "</b><br><br>";
-    document.getElementById("result").innerHTML = html;
+    //var html = "<br>";
+    if (a == "http://siparis.html") {
+        location.href = "siparis.html";
+    } else {
+        document.getElementById("result").innerHTML = "Lütfen masanızdaki qr kodu okutunuz!!!!";
+        location.href = "index.html";
+    }
+    // if (a.indexOf("http://") === 0 || a.indexOf("https://") === 0)
+    //     html += "<a target='_blank' href='" + a + "'>" + a + "</a><br>";
+    //html += "<b>" + htmlEntities(a) + "</b><br><br>";
+    //document.getElementById("result").innerHTML = html;
 }
 
 function isCanvasSupported() {
