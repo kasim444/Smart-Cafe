@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#arkaplan{
+		background-color:#0FF;
+		height:1200px;
+		}
+		
+#form1{
+		float:left;
+		height:130px;
+		width:315px;
+		background-color:#9F3;
+		margin-top:200px;
+		margin-left:300px;
+		border-style:dotted;
+		}
+
+#form2{
+		float:right;
+		height:450px;
+		width:350px;
+		background-color:#0F9;
+		margin-top:200px;
+		margin-right:700px;
+		border-style:dashed;
+		
+		}
+.yazi{
+	  font-size:28px;
+	  
+		}
+input.buton{
+    font:bold 24px Arial, Helvetica, sans-serif;
+	
+}
+
+
