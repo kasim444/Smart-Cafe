@@ -68,39 +68,7 @@
 	</body>
 </html>
 
-<?php
-	include "admin/ayar.php";
-	
-	$sql2=mysqli_query($col,"select * from urun_turu");
-	while($kayit2=mysqli_fetch_array($sql2))
-	{
-		echo "<table><tr><td><h1>".$kayit2["tur"]."</h1></td>"."<td><img src=img/".$kayit2["img"]." height='50px'></td></tr><table>";
-		$sql=mysqli_query($col,"select * from urunler order by tur_id asc");
-		echo "<table id='tablo'>";
-		echo "<tr><td>Urun Adı</td><td>Detay</td><td>Birim Fiyat</td></tr>";
-		while($kayit=mysqli_fetch_array($sql))
-		{
-			
-			if ($kayit["tur_id"]==$kayit2["tur_id"])
-			{
-					
-					echo "<tr>";
-					echo "<td>".$kayit["urun_adi"]."</td>";
-					echo "<td>".$kayit["detay"]."</td>";
-					echo "<td>".$kayit["birim_fiyati"]."</td>";
-					echo "</tr>";
-					
-				
-			}
-		}
-		echo "</table>";
-	}
-	
-
-?>
-
 <script>  
-/*
 $(document).ready(function(){
 
 	load_product();
@@ -141,6 +109,17 @@ $(document).ready(function(){
         	return $('#popover_content_wrapper').html();
         }
 	});
+
+	$(document).on('click', '#check_out_cart', function(){
+		
+		data:{product_id:product_id, product_name:product_name, product_price:product_price, product_quantity:product_quantity, action:action},
+		<?php
+			include('database_connection.php');
+			$sql=mysql_query("insert into cafeler(cafeadi,ipno,sehir,ilce,tel,tarih) values('$cafe','$ip','$sehir','$ilce','$tel','$tarih')");
+		?>
+
+	});
+
 
 	$(document).on('click', '.add_to_cart', function(){
 		var product_id = $(this).attr("id");
@@ -203,36 +182,8 @@ $(document).ready(function(){
 				alert("Your Cart has been clear");
 			}
 		});
-	
-	});
-
-		$(document).on('click', '#check_out_cart', function(){
-		
-	
-		var product_id = $(this).attr("id");
-		var product_name = $('#name'+product_id+'').val();
-		var product_price = $('#price'+product_id+'').val();
-		var product_quantity = $('#quantity'+product_id).val();
-		var action = "submit";
-		if(product_quantity > 0)
-		{
-			$.ajax({
-				url:"action.php",
-				method:"POST",
-				data:{product_id:product_id, product_name:product_name, product_price:product_price, product_quantity:product_quantity, action:action},
-				success:function(data)
-				{
-					alert("Item has been Added in database");
-				}
-			});
-			
-		};
-
-
-
 	});
     
 });
 
-*/
 </script>
