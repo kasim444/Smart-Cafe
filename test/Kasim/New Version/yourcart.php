@@ -41,7 +41,7 @@ require_once 'dbconnect.php';
 			$total = $total + ($values["item_quantity"] * $values["product_price"]);
 		}
 		
-	}
+	} 
 	?>
     </table>
     </div>

@@ -12,9 +12,5 @@
 <body>
 <div title="container">
     <div title="header">
-        <h1 style="padding-top: 44px;
-        font-family: "Alex Brush", cursive;
-        color: white;
-        font-size: 75px;
-        line-height: 35px;">SMARTCAFE</h1>
+        <h1 class="title custom-font">Smart Cafe</h1>
     </div>
