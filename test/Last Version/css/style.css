@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700');
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    text-align: center !important;
+    color: white;
+    background-image: linear-gradient(to right top, #8e44ad 16%, #3498db 84%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+
+img {
+    border: 0;
+}
+
+#main {
+    /* background: white; */
+    margin-top: 44px;
+    text-align: center;
+    border-radius: 44px;
+    display: inline-block;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#sip-main {
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+}
+
+#mainbody {
+    /* background: white; */
+    width: 50%;
+    display: none;
+}
+
+#v {
+    width: 320px;
+    height: 240px;
+}
+
+#qr-canvas {
+    display: none;
+}
+
+#qrfile {
+    width: 320px;
+    height: 240px;
+}
+
+#title {
+    font-family: monospace;
+}
+
+#imghelp {
+    position: relative;
+    left: 0px;
+    top: -160px;
+    z-index: 100;
+    font: 18px arial, sans-serif;
+    /* background: #f0f0f0; */
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.selector {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-bottom: -5px;
+}
+
+#outdiv {
+    margin: 1em auto;
+    width: 320px;
+    height: 240px;
+}
+
+#result {
+    color: #c9ad91;
+    padding: 20px;
+}
+
+.tsel {
+    padding: 0;
+}
+
+.custom-font {
+    padding-top: 44px;
+    font-family: "Alex Brush", cursive;
+    color: white;
+    font-size: 75px;
+    line-height: 35px;
+}
+
+.slogan {
+    color: #efedeb;
+    font-style: italic;
+    font-size: medium;
+}
+
+.orders {
+    align-items: center;
+    height: 400px;
+    color: white;
+}
+
+
+/* Php Files */
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+nav {
+    max-width: 960px;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+}
+
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: rgba(0, 35, 122, 0.5);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+    .decor {
+        padding: 3px;
+    }
+    .wrap {
+        width: 100%;
+        margin-top: 0px;
+    }
+    li {
+        float: none;
+    }
+    ul.primary li:hover a {
+        background: none;
+        color: #8B8B8B;
+        text-shadow: 1px 1px #000;
+    }
+    ul.primary li:hover ul {
+        display: block;
+        background: #272727;
+        color: #fff;
+    }
+    ul.sub {
+        display: block;
+        position: static;
+        box-shadow: none;
+        width: 100%;
+    }
+    ul.sub li a {
+        background: #272727;
+        border: none;
+        color: #8B8B8B;
+    }
+    ul.sub li a:hover {
+        color: #ccc;
+        background: none;
+    }
+}
+
+
+/* For footer */
+
+p.foot {
+    color: white;
+    font-size: 9pt;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: bold
+}
+
+
+/* For cart */
+
+th.cart {
+    color: white;
+    background-color: #48577D;
+    text-align: center;
+    padding: 5px;
+}
+
+td.cart {
+    text-align: center;
+    background-color: #d3dcf2;
+    padding: 10px;
+}
+
+
+/* For contact */
+
+td.contact {
+    padding: 10px;
+}
+
+
+/* For particular links */
+
+#login:active,
+#login:visited,
+#login:link {
+    color: blue;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+#signup:active,
+#signup:visited,
+#signup:link {
+    color: blue;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+#username:active,
+#username:visited,
+#username:link {
+    color: black;
+    text-decoration: none;
+}
+
+#logout:active,
+#logout:visited,
+#logout:link {
+    color: red;
+    text-decoration: none;
+}
+
+#order:active,
+#order:visited,
+#order:link {
+    color: blue;
+    text-decoration: none;
+}
+
+#orderLogin:active,
+#orderLogin:visited,
+#orderLogin:link {
+    color: blue
+}
+
+#delete:active,
+#delete:visited,
+#delete:link {
+    color: red;
+    text-decoration: none;
+}
+
+#checkout:active,
+#checkout:visited,
+#checkout:link {
+    color: red;
+    text-decoration: none;
+}
+
+#continue:active,
+#continue:visited,
+#continue:link {
+    color: blue;
+    text-decoration: none;
+}
