@@ -8,7 +8,7 @@
       <a href="home.php">Anasayfa</a>
     </li>
     <li>
-      <a href="cafe1/index.php">Ürünler</a>
+      <a href="product.php">Ürünler</a>
     </li>
     <li>
       <a href="yourcart.php">Sepet</a>
