@@ -1,4 +1,4 @@
-	<div title="Bir Ege üniversitesi tez projesi." style="margin-top:35px;padding-top:65px;height:16%;;">
+	<div title="Bir Ege üniversitesi tez projesi." style="width:100%;position:fixed;bottom:0;top:left:0;">
 		<div style="color:white;background:linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);">© 2018 | A EGE UNIVERSITY THESIS PROJECT</div>	
 	</div>
 </div>
