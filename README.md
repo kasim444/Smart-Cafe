@@ -1,4 +1,4 @@
-<h2>SMART CAFE</h2>
+<h2 align=center>SMART CAFE</h2>
 
 <p>Smart cafe; Kafeler, restoranlar, otellerde ve kahve zincirlerinde herhangi bir garsona ihtiyaç kalmadan müşterilerin siparişlerini ilgili masadaki qr kodu okutarak kolayca herhangi bir cihaz üzerinden siparişlerini verebilecekleri bir web uygulamasıdır.</p>
 
