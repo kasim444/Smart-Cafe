@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
     text-align: center !important;
-    color: white;
+    color:#b2ffaa;;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,6 +17,7 @@ body {
 
 .container {
     font-family: 'Roboto', sans-serif;
+    color:white !important;
 }
 
 .home {
@@ -25,9 +26,9 @@ body {
 }
 
 .baslik {
-    color: snow;
+    text-shadow: #ffffffb3 0 1px 0;
+    color: #04284bf5;
     margin-top: 44px;
-    font-style: bold;
 }
 
 .clearfix {
@@ -39,8 +40,12 @@ img {
     border: 0;
 }
 
-.parag {
-    color: #04284b;
+.parag,form {
+    text-shadow: #b2ffaa 0 1px 0;
+    color: #00000029;
+}
+form #name{
+    color:white;
 }
 
 .footer {
@@ -56,7 +61,7 @@ img {
     /* background: white; */
     text-align: center;
     display: inline-block;
-    box-shadow: 0 14px 28px rgb(0, 0, 0), 0 10px 10px rgba(0, 0, 0, 0.466);
+    box-shadow:  15px 26px 20px 0px #000000c4;
     font-family: 'Roboto', sans-serif;
     margin: 10px auto 0 auto;
     border-radius: 44px;
@@ -65,9 +70,18 @@ img {
     width: min-content;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
-
-.in {
+.phone-camera {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: hsl(0, 0%, 20%);
+    position: relative;
+    top: 3px;
+    left: 50%;
+}
+.screen {
     margin: 10px;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     border-radius: 22px 22px 33px 33px;
@@ -89,7 +103,7 @@ img {
 
 #sip-main {
     width: 100%;
-    padding-top: 0px;
+    padding-top: 0;
     text-align: center;
 }
 
@@ -119,7 +133,7 @@ img {
 
 #imghelp {
     position: relative;
-    left: 0px;
+    left: 0;
     top: -160px;
     z-index: 100;
     font: 18px arial, sans-serif;
@@ -156,7 +170,7 @@ img {
 .custom-font {
     background: linear-gradient(to bottom, white, snow);
     -webkit-background-clip: text;
-    color: transparent;
+    color:#ddff80;
     font-family: "Alex Brush", cursive;
     font-size: 66px;
     padding-top: 20px;
@@ -265,9 +279,8 @@ nav ul li {
 
 nav ul li a {
     padding: 18px;
-    font-family: "Open Sans";
     text-transform: uppercase;
-    color: #e9ecefa6;
+    color: #abea6f;
     font-size: 16px;
     text-decoration: none;
     display: block;
@@ -276,7 +289,7 @@ nav ul li a {
 nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
-    color: rgba(0, 35, 122, 0.7);
+    color: #e9ecefa6;
     text-decoration: none;
 }
 

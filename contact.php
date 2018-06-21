@@ -18,7 +18,7 @@
 
 <div align="center" style="margin: 15px;">
 <form method="post">
-<table class="contact">
+<table class="contact" style="color:white;">
     <tr class="contact">
         <td class="contact" colspan="2"><h2>Bize ulaşmak isterseniz,  bir e-posta gönderin.<h2></td>
     </tr>

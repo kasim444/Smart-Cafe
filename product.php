@@ -25,7 +25,8 @@ $result2=$DBcon->query($query2);
 
 while ($row2 = $result2->fetch_array()){
     ?>
-    <div><h1><?php echo $row2["categoryName"]; ?></h1></div>
+    <div><h1 style="text-shadow: #ffffffb3 0 1px 0;
+    color: #04284bf5;"><?php echo $row2["categoryName"]; ?></h1></div>
     <img style="width:100px;" src="<?php echo $row2["image"]; ?>">
     <?php
     $query = "SELECT * FROM Products ORDER BY CategoryId asc";
@@ -43,7 +44,7 @@ while ($row2 = $result2->fetch_array()){
                             <h5><?php echo $row["productName"]; ?></h5>
                             <h5><?php echo $row["productPrice"]; ?> ₺</h5>
                             <input type="number" name="quantity" value="1" min="1" max="10">
-                            <input type="hidden" name="hidden_name" value="<?php echo $row["productName"]; ?>">
+                            <input id="name" type="hidden" name="hidden_name" value="<?php echo $row["productName"]; ?>">
                             <input type="hidden" name="hidden_price" value="<?php echo $row["productPrice"]; ?>">
                             <button style="background:linear-gradient(35deg,#2bbbad,#0069ff);" class="btn btn-circle btn-raised ripple-effect btn-default" type="submit" name="add" value="Ekle">Ekle</button>
                             </div>  
