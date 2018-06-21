@@ -76,13 +76,13 @@ if(isset($_GET["action"]))
 		$orderID=$_GET["orderID"];
 		$sql="UPDATE `order` SET `orderStatus`=2 where orderID=$orderID";
 		$DBcon->query($sql);
-		echo '<script>window.location="mutfakekrani.php"</script>';
+		echo '<script>window.location="kitchen_screen"</script>';
 	}
 	if ($_GET["action"] == "update2"){		
 		$orderID=$_GET["orderID"];
 		$sql2="UPDATE `order` SET `orderStatus`=0 where orderID=$orderID";
 		$DBcon->query($sql2);
-		echo '<script>window.location="kasa_ekrani.php"</script>';
+		echo '<script>window.location="safe_screen.php"</script>';
 	}
 }
 
