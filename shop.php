@@ -37,7 +37,7 @@ if(isset($_POST["add"]))
 				$cnt++;
 			}
 			
-			echo '<script>alert("Aynı üründen daha önce sipariş ettiniz !")</script>';
+			echo '<script>alert("Sepetiniz Güncellendi.")</script>';
 			echo '<script>window.location="product.php"</script>';
 		}
 	}

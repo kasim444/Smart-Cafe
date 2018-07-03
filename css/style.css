@@ -9,7 +9,8 @@ body {
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
     text-align: center !important;
-    color:#b2ffaa;;
+    color: #b2ffaa;
+    ;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,7 +18,7 @@ body {
 
 .container {
     font-family: 'Roboto', sans-serif;
-    color:white !important;
+    color: white !important;
 }
 
 .home {
@@ -40,12 +41,14 @@ img {
     border: 0;
 }
 
-.parag,form {
+.parag,
+form {
     text-shadow: #b2ffaa 0 1px 0;
     color: #00000029;
 }
-form #name{
-    color:white;
+
+form #name {
+    color: white;
 }
 
 .footer {
@@ -61,17 +64,17 @@ form #name{
     /* background: white; */
     text-align: center;
     display: inline-block;
-    box-shadow:  15px 26px 20px 0px #000000c4;
+    box-shadow: 15px 26px 20px 0px #000000c4;
     font-family: 'Roboto', sans-serif;
     margin: 10px auto 0 auto;
     border-radius: 44px;
-    min-height: 80vh;
     background-color: rgba(0, 0, 0, 0.89);
     width: min-content;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
+
 .phone-camera {
     height: 8px;
     width: 8px;
@@ -81,6 +84,7 @@ form #name{
     top: 3px;
     left: 50%;
 }
+
 .screen {
     margin: 10px;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -170,7 +174,7 @@ form #name{
 .custom-font {
     background: linear-gradient(to bottom, white, snow);
     -webkit-background-clip: text;
-    color:#ddff80;
+    color: #ddff80;
     font-family: "Alex Brush", cursive;
     font-size: 66px;
     padding-top: 20px;
@@ -268,7 +272,8 @@ nav {
     margin: 0 auto;
 }
 
-nav ul {
+nav ul,
+.dropdown__hover {
     text-align: center;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
 }
@@ -286,12 +291,54 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     color: #e9ecefa6;
     text-decoration: none;
 }
+
+
+/* Dropdown menu start */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+
+.dropdown__hover:hover {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+.dropdown__menu {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color: white;
+}
+
+.dropdown:hover .dropdown__menu {
+    display: block;
+}
+
+.dropdown__menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+}
+
+.dropdown__menu a:hover {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    color: #323b40;
+}
+
+
+/* /Dropdown menu end */
 
 .kitchen {
     border: 1px solid white;
