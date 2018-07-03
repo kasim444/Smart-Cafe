@@ -49,7 +49,11 @@ if(@$_POST["kaydol"]=="Register")
 
 ?>
             <form action="" method="post" class="yazi" style="margin-top: 50px;">
+<<<<<<< HEAD
                 Masa Adı:&nbsp;<input type="text" name="tur" value=""><br/>
+=======
+                Tur Adı:&nbsp;<input type="text" name="tur" value=""><br/>
+>>>>>>> 184476e712f4c686a231e8fd0d4a00af87648cfd
                 <input type="submit" name="kaydol" value="Register" class="buton" style="margin-top: 10px;">
                    
             </form>

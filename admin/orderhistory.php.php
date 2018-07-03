@@ -4,17 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Smart Cafe | Tıkla gelsin.</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <title></title>
 </head>
 <body>
-<h1>Sipariş Ekranı</h1>
+<h1>Sipariş ve Kasa Geçmişi</h1>
 <hr>
+
+
+
 <?php
 
-require_once 'dbconnect.php';
+require_once '../dbconnect.php';
 
-$sql="SELECT * FROM `order` WHERE `orderStatus`=1 ORDER BY `orderDate`";
+$t=0;
+
+$sql="SELECT * FROM `order` WHERE `orderStatus`=0 ORDER BY `orderDate`";
 $result=$DBcon->query($sql);
 
 while($row=$result->fetch_array()){
@@ -32,6 +37,7 @@ while($row=$result->fetch_array()){
         if ($row["tableID"]==$row2["tableID"]) {
           ?>
           <h4><?php echo "Masa Adı : ".$row2["tableName"]; ?></h4><hr>
+
         <?php
       }else{
 
@@ -48,8 +54,11 @@ while($row=$result->fetch_array()){
 
           while ($row4=$result4->fetch_array()) {
             if ($row3["productID"]==$row4["productID"] && $row["tableID"]==$row2["tableID"]) {
+              $f=$row4["productPrice"];
+              $f2=$f*$row3["quantity"];
+              $t+=$f2;
               ?>
-              <h6><?php echo $row3["quantity"]." adet ".$row4["productName"]; ?></h6>
+              <h6><?php echo $row4["productName"]." 1 adet ".$row4["productPrice"]." "."TL"." x ".$row3["quantity"]."  "." adet "; ?></h6>
             <?php
           }
         }
@@ -59,7 +68,10 @@ while($row=$result->fetch_array()){
     }
 
   }?>
-  <a id="update" href="shop.php?action=update1&orderID=<?php echo $row["orderID"]; ?>"><span>Tamamlandı</span></a>
+  <br>
+  <h6><?php echo "Toplam fiyat=".$t;?></h6>
+  <?php $t=0; ?>
+  
    </div>
    </body>
 </html>
