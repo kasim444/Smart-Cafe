@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Smart Cafe | Tıkla gelsin.</title>
+    <title></title>
      <meta charset="UTF-8" />
 
     <!-- Main Css -->
@@ -22,5 +22,5 @@
 <div class="wow fadeIn container">
     <div>
     
-        <h1 class="title custom-font">Smart Cafe</h1>
+        <h1 class="title custom-font">Cafe1 Admin Paneline Giris Ekranı</h1>
     </div>
