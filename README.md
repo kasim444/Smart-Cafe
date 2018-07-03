@@ -19,5 +19,4 @@
 <ul><h4>Eksileri :</h4>
 <li>Herhangi bir mobil uygulamanın olmaması</li>
 <li>Stok takip sisteminin olmaması</li>
-<li>Demo aşamasında olması.</li>
 </ul>
