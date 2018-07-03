@@ -5,30 +5,36 @@
 <nav>
   <ul class="primary">
     <li>
-      <a href="home.php">Anasayfa</a>
-    </li>
-    <li>
-      <a href="product.php">Ürünler</a>
-    </li>
-    <li>
-      <a href="yourcart.php">Sepet</a>
-    </li>
-    <li>
-      <a href="ekibimiz.php">Ekibimiz</a>
-    </li>
-    <li>
-      <a href="contact.php">İletişim</a>
-    </li>
-    <!-- <li>
-      <div class="dropdown">
-            <a class="dropdown__hover" href="#">Açılır menü</a>
+       <div class="dropdown">
+            <a class="dropdown__hover" href="#">Ürün İşlemleri</a>
             <div class="dropdown__menu">
-              <a href="#">1. Menü</a>
-              <a href="#">2. Menü</a>
-              <a href="#">3. Menü</a>
+              <a href="urunekle.php">Ürün Ekle</a>
+              <a href="urunduzenle.php">Ürün Düzenle</a>
             </div>
         </div>
+    </li>
+    <li>
+      <div class="dropdown">
+            <a class="dropdown__hover" href="#">Tür İşlemleri</a>
+            <div class="dropdown__menu">
+              <a href="turekle.php">Tür Ekle</a>
+              <a href="turduzenle.php">Tür Düzenle</a>
+            </div>
+        </div>
+    </li>
+    <li>
+      <div class="dropdown">
+            <a class="dropdown__hover" href="#">Masa İşlemleri</a>
+            <div class="dropdown__menu">
+              <a href="masaekle.php">Masa Ekle</a>
+              <a href="masaduzenle.php">Masa Düzenle</a>
+            </div>
+        </div>
+    </li>
+    <!-- <li>
+      <a href="index.php">Üye Girişi</a>
     </li> -->
+    
   </ul>
 </nav>
 </div>

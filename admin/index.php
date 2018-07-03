@@ -9,11 +9,7 @@
       $myusername = mysqli_real_escape_string($db,$_POST['cafe']);
       $mypassword = mysqli_real_escape_string($db,$_POST['ip']); 
       
-<<<<<<< HEAD
       $sql = "SELECT uye_id FROM uyeler WHERE user_name = '$myusername' and sifre = '$mypassword'";
-=======
-      $sql = "SELECT no FROM personal WHERE user_name = '$myusername' and sifre = '$mypassword'";
->>>>>>> 184476e712f4c686a231e8fd0d4a00af87648cfd
       $result = mysqli_query($db,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       $active = $row['active'];
@@ -24,11 +20,7 @@
 		
       if($count == 1) {
          $_SESSION['login_user'] = $myusername;
-<<<<<<< HEAD
        	 header("Location:home.php");
-=======
-       	 header("Location:php/anasayfa.html");
->>>>>>> 184476e712f4c686a231e8fd0d4a00af87648cfd
       }else {
         // $error = "Your Login Name or Password is invalid";
         echo "Hatalı Giriş yaptınız. Lütfen tekrar deneyin.";
@@ -63,11 +55,7 @@
             
       <form action="" method="post" class="yazi">
         UserName:&nbsp;<input type="text" name="cafe" value=""><br/>
-<<<<<<< HEAD
         Password:&nbsp;<input type="password" name="ip" value=""><br/>
-=======
-        Password:&nbsp;<input type="text" name="ip" value=""><br/>
->>>>>>> 184476e712f4c686a231e8fd0d4a00af87648cfd
         <input type="submit" name="giris" value="Login" class="buton">
         <a href="http://www.google.com">Forget your password</a> 
       </form>

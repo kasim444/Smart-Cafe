@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Smart Cafe | Tıkla gelsin.</title>
 </head>
 <body>
-<h1>Mutfak Ekranı</h1>
+<h1>Sipariş Ekranı</h1>
 <hr>
 <?php
 
-require_once '../dbconnect.php';
+require_once 'dbconnect.php';
 
 $sql="SELECT * FROM `order` WHERE `orderStatus`=1 ORDER BY `orderDate`";
 $result=$DBcon->query($sql);

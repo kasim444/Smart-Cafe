@@ -56,11 +56,7 @@
                 <table style="color:  #FFFFFF; font-size: 15px; text-align: center; margin: auto; margin-top: 50px; width: 400px;">
                 <form action="" method="post">
                     
-<<<<<<< HEAD
                     <tr><td>Masa İd</td><td>Masa Adı</td></tr>
-=======
-                    <tr><td>Tur İd</td><td>Tür Adı</td></tr>
->>>>>>> 184476e712f4c686a231e8fd0d4a00af87648cfd
                     <?php  
                           $sql=mysqli_query($db,"select * from `table`");
                         while($satir=mysqli_fetch_array($sql))
