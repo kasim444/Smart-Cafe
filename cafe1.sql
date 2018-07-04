@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 20 Haz 2018, 16:48:05
+-- Üretim Zamanı: 03 Tem 2018, 11:35:24
 -- Sunucu sürümü: 10.1.31-MariaDB
 -- PHP Sürümü: 7.2.3
 
@@ -59,6 +59,14 @@ CREATE TABLE `order` (
   `orderStatus` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
+--
+-- Tablo döküm verisi `order`
+--
+
+INSERT INTO `order` (`orderID`, `tableID`, `orderDate`, `orderStatus`) VALUES
+(160, 14, '2018-06-20 17:18:40', 2),
+(161, 14, '2018-06-29 15:49:21', 0);
+
 -- --------------------------------------------------------
 
 --
@@ -73,6 +81,16 @@ CREATE TABLE `orderdetail` (
   `quantity` int(11) NOT NULL,
   `total` double(10,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
+
+--
+-- Tablo döküm verisi `orderdetail`
+--
+
+INSERT INTO `orderdetail` (`orderdId`, `orderID`, `productID`, `unitPrice`, `quantity`, `total`) VALUES
+(57, 160, 7, 10, 2, 20.00),
+(58, 161, 7, 10, 1, 10.00),
+(59, 161, 8, 10, 1, 10.00),
+(60, 161, 9, 10, 1, 10.00);
 
 -- --------------------------------------------------------
 
@@ -176,13 +194,13 @@ ALTER TABLE `category`
 -- Tablo için AUTO_INCREMENT değeri `order`
 --
 ALTER TABLE `order`
-  MODIFY `orderID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=160;
+  MODIFY `orderID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=162;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `orderdetail`
 --
 ALTER TABLE `orderdetail`
-  MODIFY `orderdId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `orderdId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `products`
